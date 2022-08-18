@@ -891,9 +891,15 @@ button:focus {
 }
 
 .work-item {
+  height: 400px;
+  overflow: hidden;
   position: relative;
   text-align: center;
   overflow: hidden;
+}
+
+.work-item img {
+  width: 100%;
 }
 
 .work-item:hover img {
