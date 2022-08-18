@@ -449,15 +449,15 @@ button:focus {
 /*-- End Navbar --*/
 /*-- Banner --*/
 .banner-img-one {
-  background-image: url("../img/home-one/banner-main1.jpg");
+  background-image: url("../img/banner1.jpg");
 }
 
 .banner-img-two {
-  background-image: url("../img/home-one/banner-main2.jpg");
+  background-image: url("../img/banner2.jpg");
 }
 
 .banner-img-three {
-  background-image: url("../img/home-one/banner-main3.jpg");
+  background-image: url("../img/banner3.jpg");
 }
 
 .banner-wrap {
