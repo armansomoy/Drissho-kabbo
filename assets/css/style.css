@@ -32,10 +32,23 @@ This files table contents are outlined below>>>>>
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&amp;display=swap");
 
+@font-face {
+  font-family: 'Ador-regular';
+  src: url(../font/Li\ Ador\ Noirrit\ Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Ador-bold';
+  src: url(../font/Li\ Ador\ Noirrit\ Bold.ttf)
+}
+
+
+
+
 /*-- Home One --*/
 /*-- Default CSS --*/
 body {
-  font-family: "Playfair Display", serif;
+  font-family: 'Ador-regular';
   color: #d5d7d7;
   background-color: #0c0c0c;
   font-size: 16px;
@@ -48,7 +61,7 @@ h4,
 h5,
 h6 {
   line-height: 1.3;
-  font-family: "Josefin Sans", sans-serif;
+  /* font-family: "Josefin Sans", sans-serif; */
 }
 
 p {
@@ -147,9 +160,8 @@ button:focus {
 }
 
 .main-nav nav .navbar-nav .nav-item a {
-  font-weight: 600;
-  font-size: 17px;
-  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-family: 'Ador-regular';
   text-transform: capitalize;
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
@@ -535,7 +547,7 @@ button:focus {
 }
 
 .banner-content h1 {
-  font-weight: 700;
+  font-family: 'Ador-bold';
   font-size: 100px;
   color: #ffffff;
   text-transform: uppercase;
@@ -543,8 +555,8 @@ button:focus {
 }
 
 .banner-content p {
-  font-weight: 700;
-  font-size: 24px;
+  font-weight: 500;
+  font-size: 27px;
   color: #ffffff;
   margin-bottom: 40px;
 }
