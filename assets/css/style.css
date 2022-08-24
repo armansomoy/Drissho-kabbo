@@ -1284,6 +1284,8 @@ button:focus {
 }
 
 .team-item .team-top {
+  height: 240px;
+  overflow: hidden;
   position: relative;
   margin-bottom: 15px;
 }
