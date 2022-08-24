@@ -461,7 +461,7 @@ button:focus {
 /*-- End Navbar --*/
 /*-- Banner --*/
 .banner-img-one {
-  background-image: url("../img/banner1.jpg");
+  background-image: url("../img/banner-01.webp");
 }
 
 .banner-img-two {
@@ -469,7 +469,7 @@ button:focus {
 }
 
 .banner-img-three {
-  background-image: url("../img/banner3.jpg");
+  background-image: url("../img/banner-3.jpg");
 }
 
 .banner-wrap {
@@ -810,7 +810,13 @@ button:focus {
   top: 32% !important;
 }
 
+.week-area {
+  padding: 60px 0px 0px;
+}
+
 .week-area .week-item {
+  height: 300px;
+  overflow: hidden !important;
   position: relative;
   margin-bottom: 30px;
 }
@@ -821,6 +827,11 @@ button:focus {
 
 .week-area .week-item img {
   width: 100%;
+  transition: all linear .3s;
+}
+
+.week-area .week-item:hover img {
+  transform: scale(1.1);
 }
 
 .week-area .week-item a {
